@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  
+  
+}
+/* ===== HEADER STYLES ===== */
+
+.cover {
+  background: url('assets/wedding-landing-cover.jpg') no-repeat 70% center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+  vertical-align: middle;
+  background-color: hsla(100,0%,0%,.6);
+  padding: 0.4rem;
+  margin-top: 15.6rem;
+  display: block;
+  
+}
+
+ .wrapper h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: hsla(0,0%,100%,.9);
+  font-size: 1.2rem;
+  margin: 0.6rem;
+  letter-spacing: 0.2rem;
+  clear: both;
+}
+
+.hello::after {
+  content: "";
+  display: block;
+  background-color: hsla(0,0%,100%,.9);
+  width: 12.6rem;
+  height: 1px;
+  text-align: center;
+  margin: 0.8rem auto;
+
+}
+
+.date {
+  position:relative;
+}
+
+.date::before {
+  content:"";
+  display: block;
+  background-color: hsla(0,0%,100%,.9);
+  width: 1.5rem;
+  height: 1px;
+  position: absolute;
+  left:3rem;
+  top: 0.5rem;
+  
+  }
+  
+  .date::after {
+   content:"";
+  display: block;
+  background-color: hsla(0,0%,100%,.9);
+  width: 1.5rem;
+  height: 1px;
+  position: absolute;
+  right: 3rem;
+  bottom: 0.5rem;
+
+}
+  
+ .wrapper h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+  font-size: 3.2rem;
+   margin: 1rem;
+}
+
+/ * ===== MAIN STYLES ===== * /
+
+ .main {
+  background: url('assets/wedding-landing-background.png') repeat center;
+  width: 100%;
+  text-align: center;
+  display: block;
+  
+}
+
+ .white {
+  color:#444349;
+}
+ .black{
+  background-color: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+}
+
+h3 {
+ font-family: 'Great Vibes', cursive;
+ font-size: 3.2rem;
+ text-align: center;
+}
+.data {
+  text-align: center;
+}
+img {
+  width: 7rem;
+}
+li {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+}
+.data p {
+  font-family: 'Mulish', sans-serif;
+  
+}
